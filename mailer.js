@@ -24,6 +24,7 @@ mailer.queueMail = function() {
 		else {
 			for (var j = 0; j < result.rows.length; j++) {
 			mailer.db.query("UPDATE users SET sequence = 'Q3' WHERE email = ($1);", [result.rows[j].email]);
+			}
 			mailer.sendQueuedMailThree();
 		}
 	});
