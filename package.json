@@ -1,0 +1,19 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "ejs": "^2.3.1",
+    "express": "^4.12.0",
+    "fs": "0.0.2",
+    "mandrill-api": "^1.0.41",
+    "pg": "^4.3.0"
+  }
+}

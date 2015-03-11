@@ -1,0 +1,59 @@
+body {
+	background: url('../images/background.png') no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+	background: #7f7f7f;
+	background: rgba(0,0,0,0.5);
+}
+
+h4 {
+	text-align: center;
+}
+
+.mission-babble {
+	background: #7f7f7f;
+	background: rgba(0,0,0,0.5);
+}
+
+#mission-statement {
+	margin-top: 11%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: gray;
+	background: #7f7f7f;
+	background: rgba(0,0,0,0.5);
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+#email-submit {
+	text-align: center;
+}
+
+#subscribe-babble {
+	background: #7f7f7f;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+	
+}
+
+.button {
+	text-align: center;
+	background-color: black;
+	color: gray;
+	font-size:15px;
+	text-decoration:none;
+	border: none;	
+}
+
+.button:hover {
+	color: white;
+	text-decoration:none;
+}
+
+.user-babble {
+	background: #7f7f7f;
+	background: rgba(0,0,0,0.5);
+}
